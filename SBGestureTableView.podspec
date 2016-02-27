@@ -11,10 +11,12 @@ Pod::Spec.new do |pod|
        :git => "https://github.com/Stickbuilt/SBGestureTableView",
        :tag => "1.0"
   }
-  pod.source_files = "SBGestureTableView/*"
+  pod.source_files = "SBGestureTableView/*.swift"
   # pod.resources = 'Pod/Assets/*'
 
-  pod.platform     = :ios, '8.0', :osx, '10.8'
+  pod.ios.deployment_target = "8.0"
+  pod.osx.deployment_target = "10.10"
   pod.requires_arc = true
+  pod.frameworks = 'UIKit'
 
 end
