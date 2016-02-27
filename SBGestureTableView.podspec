@@ -9,7 +9,7 @@ Pod::Spec.new do |pod|
   pod.source           =
   {
        :git => "https://github.com/Stickbuilt/SBGestureTableView",
-       :branch => "master"
+       :tag => "1.0"
   }
   pod.source_files = "SBGestureTableView/*.swift"
   # pod.resources = 'Pod/Assets/*'
